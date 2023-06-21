@@ -1,5 +1,7 @@
 # Unit Testing w/ Jest
 
+[Repo Follow Along](https://github.com/marc-mccarthy/unit-testing-jest)
+
 ## Software Testing Intro
 
 - Test Driven Development (TDD)
