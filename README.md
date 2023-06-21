@@ -31,11 +31,11 @@ For more information on TDD and BDD, you can refer to this resource: [Link to TD
 
 ## Unit Testing
 
-Let's identify some test cases for this function:
+Let's identify some positive only test cases for this function:
 
-- Test Case 1: Pass in two numbers (3 and 5) and expect the sum to be 8.
-- Test Case 2: Pass in two negative numbers (-3 and -4) and expect the sum to be -7.
-- Test Case 3: Pass in a positive and a negative number (6 and -9) and expect the sum to be -3.
+- Test Suite/Case 1: Pass in two numbers (3 and 5) and expect the sum to be 8.
+- Test Suite/Case 2: Pass in two numbers (9 and 20) and expect the sum to be 29.
+- Test Suite/Case 3: Pass in two negative numbers (12 and 21) and expect the sum to be 33.
 
 We will use [Jest](https://jestjs.io/) as our framework for this project.
 
