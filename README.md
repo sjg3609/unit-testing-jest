@@ -40,6 +40,8 @@ Let's identify some positive only test cases for this function:
 We will use [Jest](https://jestjs.io/) as our framework for this project.
 You can spin up your own [Create React App](https://create-react-app.dev/) which has Jest included. [Vite](https://vitejs.dev/) is also popular but you will need to manually add Jest.
 
+Jest testing was created to address the need for a comprehensive and efficient testing framework for JavaScript applications, particularly those using React. Facebook, being the company behind React, recognized the importance of reliable testing tools to ensure the quality and stability of their applications.
+
 Also, we will utilize the [Jest Snippets](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets) extension by andys8 in the Visual Studion Marketplace.
 
 ## Unit Testing Example (Live Solve)
