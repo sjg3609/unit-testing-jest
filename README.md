@@ -38,6 +38,7 @@ Let's identify some positive only test cases for this function:
 - Test Suite #1 - Case #3: Pass in two numbers (12 and 21) and expect the sum to be 33.
 
 We will use [Jest](https://jestjs.io/) as our framework for this project.
+You can spin up your own [Create React App](https://create-react-app.dev/) which has Jest included. [Vite](https://vitejs.dev/) is also popular but you will need to manually add Jest.
 
 Also, we will utilize the [Jest Snippets](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets) extension by andys8 in the Visual Studion Marketplace.
 
