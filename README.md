@@ -62,6 +62,13 @@ cd equations
 ```
 
 **Step 2: Write the Test**
+So to practice TDD, we're going to write our test first. Then we'll write the code for our actual function.
+
+We'll start by creating a `tests` folder in our project and adding a new JavaScript file called `equations.test.js`.
+
+We'll start by requiring in our code file, then write a test for our first test case in **equations.test.js**
+
+Let' create that file in the `Explorer` tab for our editor and create a test.
 
 **Step 3: Test Structure**
 
