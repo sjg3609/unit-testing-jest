@@ -68,7 +68,7 @@ We'll start by creating a `tests` folder in our project and adding a new JavaScr
 
 We'll start by requiring in our code file, then write a test for our first test case in **equations.test.js**
 
-Let' create that file in the `Explorer` tab for our editor and create a test.
+Let' create that file in the `Explorer` tab for our editor and create a test to start us off.
 
 **Step 3: Test Structure**
 
