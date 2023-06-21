@@ -129,12 +129,12 @@ npm run test
 There are four more tests to write. We should write a test for each one.
 
 - [x] Pass in two numbers, 3 & 5, and expect it to return 8.
-- [ ] Pass in a positive and negative number (1, -2), expect it to still return the sum (-1).
-- [ ] Pass in decimal numbers (-1.5, 3), expect it to still return the sum (1.5).
-- [ ] Pass in only one value...
+- [x] Pass in a positive and negative number (1, -2), expect it to still return the sum (-1).
+- [x] Pass in decimal numbers (-1.5, 3), expect it to still return the sum (1.5).
+- [x] Pass in only one value...
   - What do we expect? May need to ask for clarification or make a best guess.
   - Assume the second number is 0 and return the original number.
-- [ ] Pass in non-numeric values...
+- [x] Pass in non-numeric values...
   - What do we expect? Again, may need to get clarification.
   - Try to convert to numbers. If convertable, then return the sum. If not, return `NaN`.
 

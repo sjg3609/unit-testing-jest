@@ -13,11 +13,17 @@ describe('addNumbers function', () => {
         expect(addNumbers(mockNum3, mockNum4)).toBe(29);
         expect(addNumbers(mockNum5, mockNum6)).toBe(35);
     });
-    
+
     it('Should sum positive and negative numbers', () => {
         expect(addNumbers(1, -2)).toBe(-1);
     });
     it('Should sum positive and negative decimal numbers', () => {
         expect(addNumbers(1.5, -3)).toBe(-1.5);
-    });  
+    });
+    it('Should sum correctly with only one number', () => {
+        expect(addNumbers(1.5)).toBe(1.5);
+    });
+    it('Should sum two strings with a NaN error', () => {
+        expect(addNumbers('foo', 'bar')).toBe(NaN);
+    });    
 });
